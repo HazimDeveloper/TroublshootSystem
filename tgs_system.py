@@ -465,6 +465,22 @@ st.markdown("""
         border-color: #003b70;
     }
     
+    /* Text input label styling - make labels black */
+    .stTextInput > label {
+        color: #000000 !important;
+        font-weight: 500;
+    }
+    
+    /* Alternative selector for text input labels */
+    .stTextInput label {
+        color: #000000 !important;
+    }
+    
+    /* Ensure all form labels are black */
+    .stForm label, .stTextInput label, .stNumberInput label {
+        color: #000000 !important;
+    }
+    
     /* Streamlit checkbox styling */
     .stCheckbox > label {
         color: #000000;
