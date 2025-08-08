@@ -1,0 +1,5 @@
+Staff ID,Start Time,Stop Time,Equipment,Failure Scenario,Status,Guideline for Chief Controller,Local Response,Duration (min)
+TGS001,2025-08-04 11:09:35,2025-08-04 11:09:54,TMS,Failure of 1 TMS Central Control Unit (CCU),Resolved,"â€¢ Train Entering service: Not allowed to enter service
+â€¢ Train already in service: Exit at Terminus Station",Reset CCU,0.3
+TGS001,2025-08-04 11:19:24,2025-08-04 11:19:26,Traction,Loss of 1 or 2 out of 4 Traction Control Unit,Resolved,"â€¢ Train Entering service: Not allowed to enter service
+â€¢ Train already in service: Removal at End of Single Trip depending on the speed. Reduces to 25kph, immediate removal",,0.0
