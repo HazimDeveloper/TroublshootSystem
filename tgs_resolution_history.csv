@@ -3,3 +3,46 @@ TGS001,2025-08-04 11:09:35,2025-08-04 11:09:54,TMS,Failure of 1 TMS Central Cont
 â€¢ Train already in service: Exit at Terminus Station",Reset CCU,0.3
 TGS001,2025-08-04 11:19:24,2025-08-04 11:19:26,Traction,Loss of 1 or 2 out of 4 Traction Control Unit,Resolved,"â€¢ Train Entering service: Not allowed to enter service
 â€¢ Train already in service: Removal at End of Single Trip depending on the speed. Reduces to 25kph, immediate removal",,0.0
+TGS001,2025-08-08 15:09:13,2025-08-08 15:09:17,Suspension System,Failure of Primary or Secondary Suspension,Resolved,"â€¢ Train Entering service: Not allowed to enter service
+â€¢Train already in service: Immediate Train Withdrawal from service.",Disembark passenger,0.1
+TGS001,2025-08-11 08:44:14,2025-08-11 08:46:20,Power,Failure of 1 Current Collector Shoe on 1 car on 1 side,Resolved,"â€¢ Train Entering service: Not allowed to enter service
+â€¢ Train already in service: Removal at End of Single Trip (to onboard)",Qualified train driver to verify the fault at the next station upon receiving the alarm,2.1
+TGS001,2025-08-11 08:44:14,2025-08-11 08:46:20,Power,Failure of Both Auxiliary Inverter,Resolved,"â€¢ Train Entering service: Not allowed to enter service
+â€¢ Train already in service: Immediate Train Withdrawal from service.","i. Single red APS alarm â€“Reset APS. If unsuccessful, immediate train removal . 
+ii. Both APS Failure- Reset APS.If unsuccesful, immediate train removal.",2.1
+TGS001,2025-08-11 08:47:50,2025-08-11 08:48:10,Power,Failure of 1 Battery Charger,Resolved,"â€¢ Train Entering service: Not allowed to enter service
+â€¢ Train already in service: Exit at Terminus Station",Reset APS,0.3
+TGS001,2025-08-11 08:47:50,2025-08-11 08:48:10,Power,Failure of 2 Current Collector Shoes on 1 car on 1 side,Resolved,"â€¢ Train Entering service: Not allowed to enter service
+â€¢ Train already in service: Immediate Train Withdrawal from service
+â€¢ Note: Deploy qualified Train driver to verify the fault at the next station upon receiving the alarm",Disembark passenger and train withdrawal.,0.3
+TGS001,2025-08-11 08:49:42,2025-08-11 08:50:07,Train Doors,Two doors fails to open or close per car side,Resolved,"â€¢ Train Entering service: Not allowed to enter service
+â€¢Train already in service: Isolate the failed doors (in closed positions) and withdraw the Train from service at the End of the round Trip",TO to isolate faulty door,0.4
+TGS001,2025-08-11 08:49:42,2025-08-11 08:50:07,Train Doors,Train Doors Obstacle Detection,Resolved,"â€¢ Train Entering service: Not allowed to enter service.
+â€¢Train already in service: Remove the obstacle before continuing Train service",Cycle door,0.4
+TGS001,2025-08-11 10:36:09,2025-08-11 10:36:53,"Fire/Smoke Sensor, Heat Detector",Failure of Fire/Smoke Sensor,Resolved,"â€¢ Train Entering service: Not allowed to enter service.
+â€¢Train already in service remain in service until the End of round Trip only if qualified Train driver is deployed on board. 
+â€¢Note: VATO holds the Train in the next Station. OCC can verify via CCTV and may release the train.","Field staff to check and verify the alarm, reset fire alarm if require.",0.7
+TGS001,2025-08-11 10:36:09,2025-08-11 10:36:53,"Fire/Smoke Sensor, Heat Detector",Failure of Linear Heat Detectors,Resolved,"â€¢ Train Entering service: Not allowed to enter service.
+â€¢Train already in service Exit at Terminus station","Field staff to check and verify the alarm, reset fire alarm if require.",0.7
+TGS001,2025-08-11 10:39:21,2025-08-11 10:39:24,Power,Failure of 1 Current Collector Shoe on 1 car on 1 side,Resolved,"â€¢ Train Entering service: Not allowed to enter service
+â€¢ Train already in service: Removal at End of Single Trip (to onboard)",Qualified train driver to verify the fault at the next station upon receiving the alarm,0.0
+TGS001,2025-08-11 10:39:21,2025-08-11 10:39:24,Power,Loss of DC Power by Train,Resolved,"â€¢ Train Entering service: Not allowed to enter service
+â€¢ Train already in service: Immediate Train Withdrawal from service
+â€¢ Note: Permanent Loss of 750VDC onboard train due to Train fault. Rescue Train may be required","Qualified train driver verify the alarm, train withdrawal at terminus station",0.0
+TGS001,2025-08-11 10:40:52,2025-08-11 10:42:01,TMS,Failure of Single Multifunction Vehicle Bus (MVB) Network,Resolved,"â€¢ Train Entering service: Not allowed to enter service
+â€¢Train already in service: Immediate Train Withdrawal from service
+â€¢Note: Rescue Train may be required",Check on HMI and identify which equipment causing alarm appear and reset if possible,1.2
+TGS001,2025-08-11 10:40:52,2025-08-11 10:42:01,TMS,Failure of 1 TMS Central Control Unit (CCU),Resolved,"â€¢ Train Entering service: Not allowed to enter service
+â€¢ Train already in service: Exit at Terminus Station",Reset CCU,1.2
+TGS001,2025-08-11 10:52:29,2025-08-11 10:54:14,TMS,Failure of Single Multifunction Vehicle Bus (MVB) Network,Resolved,"â€¢ Train Entering service: Not allowed to enter service
+â€¢Train already in service: Immediate Train Withdrawal from service
+â€¢Note: Rescue Train may be required",Check on HMI and identify which equipment causing alarm appear and reset if possible,0.0
+TGS001,2025-08-11 10:52:29,2025-08-11 10:54:14,TMS,Failure of 2 TMS Central Control Unit (CCU),Resolved,"â€¢ Train Entering service: Not allowed to enter service
+â€¢ Train already in service: Immediate Train Withdrawal from service
+â€¢ Note: Rescue Train may be required","Reset CCU. If not success, train need to be couple",0.0
+TGS001,2025-08-11 11:36:39,2025-08-11 11:39:10,TMS,Failure of Single Multifunction Vehicle Bus (MVB) Network,Resolved,"â€¢ Train Entering service: Not allowed to enter service
+â€¢Train already in service: Immediate Train Withdrawal from service
+â€¢Note: Rescue Train may be required",Check on HMI and identify which equipment causing alarm appear and reset if possible,2.5
+TGS001,2025-08-11 11:36:39,2025-08-11 11:39:10,TMS,Failure of 2 TMS Central Control Unit (CCU),Resolved,"â€¢ Train Entering service: Not allowed to enter service
+â€¢ Train already in service: Immediate Train Withdrawal from service
+â€¢ Note: Rescue Train may be required","Reset CCU. If not success, train need to be couple",2.5

@@ -6,7 +6,8 @@ def install_requirements():
         'streamlit',
         'pandas',
         'numpy',
-        'openpyxl'
+        'openpyxl',
+        'streamlit-autorefresh'
     ]
     
     print("Installing required packages...")
